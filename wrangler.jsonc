@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "deepseek-api",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-04-27",
+  "compatibility_flags": ["nodejs_compat"],
+  "vars": {
+    "CONFIG_JSON": "{\"keys\":[],\"accounts\":[]}"
+  },
+  "kv_namespaces": [
+    {
+      "binding": "DEEPSEEK_CONFIG",
+      "id": "your-kv-namespace-id"
+    }
+  ]
+}
