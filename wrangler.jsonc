@@ -4,13 +4,17 @@
   "main": "src/index.ts",
   "compatibility_date": "2025-04-27",
   "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": false,
+  },
+  "keep_vars": true,
   "vars": {
     "CONFIG_JSON": "{\"keys\":[],\"accounts\":[]}"
   },
   "kv_namespaces": [
     {
       "binding": "DEEPSEEK_CONFIG",
-      "id": "your-kv-namespace-id"
+      "id": "9f6a8e7e38364f5c8d1473e0a116a617"
     }
   ]
 }
