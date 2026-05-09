@@ -455,7 +455,7 @@ function getAuthHeaders(token: string): Record<string, string> {
     "Accept-Encoding": "gzip",
     "Content-Type": "application/json",
     "x-client-platform": "android",
-    "x-client-version": "2.0.0",
+    "x-client-version": "2.0.4",
     "x-client-locale": "zh_CN",
     "accept-charset": "UTF-8",
     authorization: `Bearer ${token}`,
